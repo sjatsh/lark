@@ -1,8 +1,8 @@
 package lark
 
 import (
-	"github.com/go-lark/lark/card"
-	"github.com/go-lark/lark/card/i18n"
+	"github.com/sjatsh/lark/card"
+	"github.com/sjatsh/lark/card/i18n"
 )
 
 type i18nCardBuilder struct{}

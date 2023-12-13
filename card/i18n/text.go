@@ -1,6 +1,6 @@
 package i18n
 
-import "github.com/go-lark/lark/card"
+import "github.com/sjatsh/lark/card"
 
 // TextBlock contains LocalizedTextBlock and render it to I18N
 type TextBlock struct {

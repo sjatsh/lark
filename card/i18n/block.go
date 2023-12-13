@@ -1,6 +1,6 @@
 package i18n
 
-import "github.com/go-lark/lark/card"
+import "github.com/sjatsh/lark/card"
 
 // LocalizedBlock .
 type LocalizedBlock struct {

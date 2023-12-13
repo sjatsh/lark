@@ -1,10 +1,10 @@
 # go-lark
 
-[![build](https://github.com/go-lark/lark/actions/workflows/ci.yml/badge.svg)](https://github.com/go-lark/lark/actions/workflows/ci.yml)
+[![build](https://github.com/sjatsh/lark/actions/workflows/ci.yml/badge.svg)](https://github.com/sjatsh/lark/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/go-lark/lark/branch/main/graph/badge.svg)](https://codecov.io/gh/go-lark/lark)
-[![Go Report Card](https://goreportcard.com/badge/github.com/go-lark/lark)](https://goreportcard.com/report/github.com/go-lark/lark)
+[![Go Report Card](https://goreportcard.com/badge/github.com/sjatsh/lark)](https://goreportcard.com/report/github.com/sjatsh/lark)
 [![Go Module](https://badge.fury.io/go/github.com%2Fgo-lark%2Flark.svg)](https://badge.fury.io/go/github.com%2Fgo-lark%2Flark.svg)
-[![Go Reference](https://pkg.go.dev/badge/github.com/go-lark/lark.svg)](https://pkg.go.dev/github.com/go-lark/lark)
+[![Go Reference](https://pkg.go.dev/badge/github.com/sjatsh/lark.svg)](https://pkg.go.dev/github.com/sjatsh/lark)
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)
 
 [简体中文](/README_zhCN.md)
@@ -28,7 +28,7 @@ It is widely used and tested by ~650 ByteDance in-house developers with over 3k 
 ## Installation
 
 ```shell
-go get github.com/go-lark/lark
+go get github.com/sjatsh/lark
 ```
 
 ## Quick Start
@@ -53,7 +53,7 @@ Notification Bot:
 Chat Bot:
 
 ```go
-import "github.com/go-lark/lark"
+import "github.com/sjatsh/lark"
 
 func main() {
     bot := lark.NewChatBot("<App ID>", "<App Secret>")
@@ -65,7 +65,7 @@ func main() {
 Notification Bot:
 
 ```go
-import "github.com/go-lark/lark"
+import "github.com/sjatsh/lark"
 
 func main() {
     bot := lark.NewNotificationBot("<WEB HOOK URL>")
@@ -215,8 +215,8 @@ We recommend HTTP middlewares to handle these events.
 
 We have already implemented HTTP middlewares to support event handling:
 
-- [Gin Middleware](https://github.com/go-lark/lark-gin)
-- [Hertz Middleware](https://github.com/go-lark/lark-hertz)
+- [Gin Middleware](https://github.com/sjatsh/lark-gin)
+- [Hertz Middleware](https://github.com/sjatsh/lark-hertz)
 
 Example: [examples/gin-middleware](https://github.com/go-lark/examples/tree/main/gin-middleware)
 
@@ -330,7 +330,7 @@ Here is an example that implementing a Lark Doc API with go-lark:
 ```go
 package lark
 
-import "github.com/go-lark/lark"
+import "github.com/sjatsh/lark"
 
 const copyFileAPIPattern = "/open-apis/drive/explorer/v2/file/copy/files/%s"
 
